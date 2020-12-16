@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 10px;
+}
+
+
+
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 40px;
+}
+
+
+.form {
+  display: grid;
+}
+
+
+
+.search-container {
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+
+.button {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-top: 10px;
+ ;
+}
+
+.input{
+  height: 30px;
+}
+
+.card-list {
+  column-count: 3;
+}
+
+
+.card {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+}
+.card--image {
+  flex: 100%;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+
