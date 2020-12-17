@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 export default function SearchPhotos() {
 
-  const [client,setClient]=useState("1ZWepNv7KJ9A5sr1Gqkq3eP1vvvSUTEG7jyyz5Nkk8k");
+  const [client,setClient]=useState("");
   const [query, setQuery] = useState("");
   const [photos, setPhotos] = useState([]);
 
